@@ -1,5 +1,8 @@
 name: 01a Hola Mundo
 on:
+  push:
+    branches:
+      - 'develop'
   workflow_dispatch:
 jobs:
   hola-mundo:
